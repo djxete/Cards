@@ -38,9 +38,9 @@ body{
     font-weight:500 ;
     position: absolute;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 28px;
     bottom: 20px;
-    left: 20px;
+    left: 30px;
     opacity: 0;
 
     
@@ -48,6 +48,7 @@ body{
 
 .panel.active{
     flex: 5;
+    transition: all ease-in-out 0.3s;
 }
 
 .panel.active h3{
